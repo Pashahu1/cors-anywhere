@@ -42,6 +42,7 @@
   },
   "scripts": {
     "lint": "eslint .",
+    "start": "node server.js",
     "test": "mocha ./test/test*.js --reporter spec",
     "test-coverage": "istanbul cover ./node_modules/.bin/_mocha -- test/test.js test/test-ratelimit.js --reporter spec"
   },
